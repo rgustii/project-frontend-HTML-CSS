@@ -1,0 +1,128 @@
+@font-face {
+    font-family: OFL reg;
+    src: url("font/font/Playball/Playball-Regular.ttf");
+}
+
+@font-face {
+    font-family: OFL;
+    src: url("font/font/Playball/OFL.txt");
+}
+
+@font-face {
+    font-family: OFL latin;
+    src: url("./font/font/Playball/");
+}
+
+@font-face {
+    font-family: PP;
+    src: url("./font/font/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: PP bold;
+    src: url("./font/font/Poppins/Poppins-Bold.ttf");
+}
+
+.menu:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+    
+.menu{
+    color: whitesmoke;
+    border-radius: 5%;
+    font-family: PP ;
+}
+
+.hero{
+    background-image: url("./img/image/hero.jpeg");
+    height: 850px;
+    background-position: center;
+    background-size: cover; 
+}
+
+.hero-menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.font-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-family: OFL reg;
+}
+
+.font-md{
+    font-family: OFL reg;
+    font-size: 70px;
+}
+
+.font-sm{
+    font-family: PP;
+    font-size: 20px;
+}
+
+.font-lt{
+    font-family: OFL reg;
+    font-size: 40px;
+}
+
+.btn{
+    border-radius: 5px;
+    width: 180px;
+}
+
+.blacken{
+    background-color: rgba(0, 0, 0, 0.450);
+    height: 850px;
+}
+
+.about{
+    background-image:url("./img/image/about-us.jpeg");
+    height: 800px;
+}
+
+.opicity{
+    background-color: rgba(0, 0, 0, 0.450);
+    height: 800px;
+}
+
+.a{
+    font-family: OFL reg;
+}
+
+.follow{
+    background-image: url("./img/image/follow-us.jpeg");
+    height: 390px;
+}
+
+.opicity2{
+    background-color: rgba(0, 0, 0, 0.450);
+    height: 390px;
+}
+
+.skat{
+    background-color:rgb(218, 16, 50) ;
+    height: 250px;
+}
+
+.f{
+    font-size: 40px;
+}
+
+.font-info{
+    font-family: PP;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.ls{
+    letter-spacing: 2px;
+}
